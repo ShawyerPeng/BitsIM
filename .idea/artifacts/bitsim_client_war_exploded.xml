@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="bitsim-client:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/bitsim_client_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="bitsim-client/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="bitsim-client" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

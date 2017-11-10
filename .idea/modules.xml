@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bitsim-client/bitsim-client.iml" filepath="$PROJECT_DIR$/bitsim-client/bitsim-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bitsim-server/bitsim-server.iml" filepath="$PROJECT_DIR$/bitsim-server/bitsim-server.iml" />
+    </modules>
+  </component>
+</project>

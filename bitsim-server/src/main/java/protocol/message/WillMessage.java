@@ -34,6 +34,16 @@ public class WillMessage {
         return willQoS;
     }
 
+    @Override
+    public String toString() {
+        return "WillMessage{" +
+                "willTopic='" + willTopic + '\'' +
+                ", willMessage=" + willMessage +
+                ", willRetain=" + willRetain +
+                ", willQoS=" + willQoS +
+                '}';
+    }
+
     //// 遗嘱信息类
     //static final class WillMessage {
     //    private final String topic;

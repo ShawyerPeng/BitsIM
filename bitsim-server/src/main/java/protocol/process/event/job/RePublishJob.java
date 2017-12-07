@@ -7,12 +7,13 @@ import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 
 import protocol.process.ProtocolProcess;
+import protocol.process.event.PubRelEvent;
 
 /**
  * Publish消息重发事件需要做的工作，即重发消息到对应的clientId
  */
 public class RePublishJob implements Job {
-    private final static Logger Log = Logger.getLogger(RePublishJob.class);
+    private final static Logger logger = Logger.getLogger(RePublishJob.class);
 
     @Override
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {

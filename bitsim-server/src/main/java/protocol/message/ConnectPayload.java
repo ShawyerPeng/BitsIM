@@ -59,4 +59,15 @@ public class ConnectPayload {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    @Override
+    public String toString() {
+        return "ConnectPayload{" +
+                "clientId='" + clientId + '\'' +
+                ", willTopic='" + willTopic + '\'' +
+                ", willMessage='" + willMessage + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
 }

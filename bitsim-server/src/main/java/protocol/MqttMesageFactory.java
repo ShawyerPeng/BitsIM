@@ -25,10 +25,10 @@ import io.netty.buffer.ByteBuf;
 public final class MqttMesageFactory {
     public static Message newMessage(FixedHeader fixedHeader, Object variableHeader, Object payload) {
         switch (fixedHeader.getMessageType()) {
-            case CONNECT :
-                return new ConnectMessage(fixedHeader, 
-                		(ConnectVariableHeader)variableHeader, 
-                		(ConnectPayload)payload);
+            case CONNECT:
+                return new ConnectMessage(fixedHeader,
+                        (ConnectVariableHeader) variableHeader,
+                        (ConnectPayload) payload);
 
             case CONNACK:
                 return new ConnAckMessage(fixedHeader, (ConnAckVariableHeader) variableHeader);
@@ -74,5 +74,6 @@ public final class MqttMesageFactory {
         }
     }
 
-    private MqttMesageFactory() { }
+    private MqttMesageFactory() {
+    }
 }

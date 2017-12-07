@@ -31,7 +31,7 @@ import protocol.message.UnsubscribePayload;
  * 使用netty的ReplayingState来进行解码，该类使用状态机的方式防止代码的反复执行
  */
 public class MqttDecoder extends ReplayingDecoder<MqttDecoder.DecoderState> {
-    private final static Logger Log = Logger.getLogger(MqttDecoder.class);
+    private final static Logger logger = Logger.getLogger(MqttDecoder.class);
 
     enum DecoderState {
         FIXED_HEADER,
@@ -252,19 +252,19 @@ public class MqttDecoder extends ReplayingDecoder<MqttDecoder.DecoderState> {
      */
     private Result<PublishVariableHeader> decodePublishVariableHeader(ByteBuf byteBuf, FixedHeader fixedHeader) {
         int useNumOfBytes = 0;//已解码字节
-        //解码协议名
+        // 解码协议名
         Result<String> topicResult = decodeUTF(byteBuf);
         String topicName = topicResult.getValue();
-        //publish消息中不能出现通配符，需要进行校验
+        // publish消息中不能出现通配符，需要进行校验
         if (!valiadPublishTopicName(topicName)) {
             throw new DecoderException("无效的主题名：" + topicName + ",因为它包含了通配符");
         }
         useNumOfBytes += topicResult.getUseNumOfBytes();
-        //解析包ID
+        // 解析包ID
         int packetId = -1;
         if (fixedHeader.getQos().value() > 0) {
             packetId = byteBuf.readUnsignedShort();
-            //校验包ID
+            // 校验包ID
             if (packetId == 0) {
                 throw new DecoderException("无效的包ID" + packetId);
             }
@@ -308,26 +308,18 @@ public class MqttDecoder extends ReplayingDecoder<MqttDecoder.DecoderState> {
     /**
      * 解码荷载，有荷载的消息类型有connect，subscribe，suback，unsubscribe，publish
      */
-    private Result<?> decodePayload(ByteBuf byteBuf,
-                                    MessageType messageType,
-                                    int bytesRemainVariablePart,
-                                    Object variableHeader) {
+    private Result<?> decodePayload(ByteBuf byteBuf, MessageType messageType, int bytesRemainVariablePart, Object variableHeader) {
         switch (messageType) {
             case CONNECT:
                 return decodeConnectPayload(byteBuf, (ConnectVariableHeader) variableHeader);
-
             case PUBLISH:
                 return decodePublishPayload(byteBuf, bytesRemainVariablePart);
-
             case SUBSCRIBE:
                 return decodeSubscribePayload(byteBuf, bytesRemainVariablePart);
-
             case SUBACK:
                 return decodeSubAckPayload(byteBuf, bytesRemainVariablePart);
-
             case UNSUBSCRIBE:
                 return decodeUnSubscribePayload(byteBuf, bytesRemainVariablePart);
-
             default:
                 return new Result<Object>(null, 0);
         }
@@ -454,7 +446,7 @@ public class MqttDecoder extends ReplayingDecoder<MqttDecoder.DecoderState> {
 
     private static class Result<T> {
         private final T value;
-        private final int useNumOfBytes;//解码出的内容的长度
+        private final int useNumOfBytes;// 解码出的内容的长度
 
         Result(T value, int useNumOfBytes) {
             this.value = value;

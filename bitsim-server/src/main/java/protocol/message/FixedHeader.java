@@ -99,28 +99,35 @@ public class FixedHeader {
     }
 
     /**
-     * QoS=0
+     * QoS=1
      */
     public static FixedHeader getPubAckFixedHeader() {
         return new FixedHeader(MessageType.PUBACK, false, QoS.AT_MOST_ONCE, false);
     }
 
+    public static FixedHeader getPubAckFixedHeader(byte errorCode) {
+        if (errorCode > 15) {
+            throw new IllegalArgumentException(" 消息错误代码 errorCode:" + errorCode + " 必须在 0~15 范围内 ");
+        }
+        return new FixedHeader(MessageType.PUBACK, (errorCode & 0x08) != 0, QoS.valueOf((errorCode >>> 1) & 0x03), (errorCode & 0x01) != 0);
+    }
+
     /**
-     * QoS=0
+     * QoS=1
      */
     public static FixedHeader getPubRecFixedHeader() {
         return new FixedHeader(MessageType.PUBREC, false, QoS.AT_MOST_ONCE, false);
     }
 
     /**
-     * QoS=1
+     * QoS=2
      */
     public static FixedHeader getPubRelFixedHeader() {
         return new FixedHeader(MessageType.PUBREL, false, QoS.AT_LEAST_ONCE, false);
     }
 
     /**
-     * QoS=0
+     * QoS=2
      */
     public static FixedHeader getPubCompFixedHeader() {
         return new FixedHeader(MessageType.PUBCOMP, false, QoS.AT_MOST_ONCE, false);

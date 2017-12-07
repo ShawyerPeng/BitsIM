@@ -7,9 +7,9 @@ import io.netty.util.AttributeKey;
  * 存储心跳包的一些属性
  */
 public class NettyAttrManager {
-	public static final String CLIENT_ID = "ClientID";			// 客户端ID
-    public static final String CLEAN_SESSION = "cleanSession";	//
-    public static final String KEEP_ALIVE = "keepAlive";		// 心跳包时长
+	private static final String CLIENT_ID = "ClientID";			// 客户端ID
+    private static final String CLEAN_SESSION = "cleanSession";	// 清除Session
+    private static final String KEEP_ALIVE = "keepAlive";		// 心跳包时长
     private static final AttributeKey<Object> ATTR_KEY_KEEPALIVE = AttributeKey.valueOf(KEEP_ALIVE);
     private static final AttributeKey<Object> ATTR_KEY_CLEANSESSION = AttributeKey.valueOf(CLEAN_SESSION);
     private static final AttributeKey<Object> ATTR_KEY_CLIENTID = AttributeKey.valueOf(CLIENT_ID);

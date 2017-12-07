@@ -59,7 +59,7 @@ public class MQTTClientTest {
 
             client.connect(options);
 
-            client.publish("消息1", message);
+            client.publish(myTopic, message);
         } catch (Exception e) {
             e.printStackTrace();
         }

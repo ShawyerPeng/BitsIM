@@ -6,6 +6,8 @@ import java.io.Serializable;
  * PubRel的事件类，只有Qos=2的时候才会有此事件
  */
 public class PubRelEvent implements Serializable {
+    public static final long serialVersionUID = 1L;
+
     private String clientId;
     private int packetId;
 

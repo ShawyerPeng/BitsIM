@@ -9,6 +9,8 @@ import protocol.message.QoS;
  * 发送消息的事件类，把协议的处理当做事件来进行就可以很好的进行封装
  */
 public class PublishEvent implements Serializable {
+    public static final long serialVersionUID = 1L;
+
     private String topic;
     private QoS qos;
     private byte[] message;

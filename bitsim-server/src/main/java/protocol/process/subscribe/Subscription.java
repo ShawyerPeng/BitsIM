@@ -5,14 +5,17 @@ import java.io.Serializable;
 import protocol.message.QoS;
 
 /**
- * 订阅的树节点，保存订阅的每个节点的信息
+ * 订阅的树节点，保存订阅的每个节点的信息（clientId, topicFilter, requestedQos, cleanSession, active）
  */
 public class Subscription implements Serializable {
     private static final long serialVersionUID = 1L;
 
-    private QoS requestedQos; //max QoS acceptable
-    private String topicFilter;
+    // 客户端ID
     private String clientId;
+    // 主题过滤器
+    private String topicFilter;
+    // max QoS acceptable
+    private QoS requestedQos;
     private boolean cleanSession;
     private boolean active = true;
 

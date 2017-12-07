@@ -47,10 +47,7 @@ public class QuartzManager {
                 // 触发器
                 Trigger trigger = TriggerBuilder.newTrigger().withIdentity(triggerName, triggerGroupName)
                         .startAt(futureDate(time, IntervalUnit.SECOND))
-                        .withSchedule(SimpleScheduleBuilder
-                                .simpleSchedule()
-                                .withIntervalInSeconds(time)
-                                .withRepeatCount(count))
+                        .withSchedule(SimpleScheduleBuilder.simpleSchedule().withIntervalInSeconds(time).withRepeatCount(count))
                         .build();
                 Date ft = sched.scheduleJob(job, trigger);
                 Log.info(jobName + "启动于" + ft);

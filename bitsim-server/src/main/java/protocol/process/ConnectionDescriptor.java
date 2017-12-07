@@ -6,9 +6,9 @@ import io.netty.channel.Channel;
  * 此类是每个客户端的会话，客户端ID，cleanSession的保存
  */
 public class ConnectionDescriptor {
-    private String clientId;
-    private Channel client;
-    private boolean cleanSession;
+    private final String clientId;
+    private final Channel client;
+    private final boolean cleanSession;
 
     public ConnectionDescriptor(String clientId, Channel session, boolean cleanSession) {
         this.clientId = clientId;
@@ -20,28 +20,38 @@ public class ConnectionDescriptor {
         return clientId;
     }
 
-    public void setClientId(String clientId) {
-        this.clientId = clientId;
-    }
-
     public Channel getClient() {
         return client;
-    }
-
-    public void setClient(Channel client) {
-        this.client = client;
     }
 
     public boolean isCleanSession() {
         return cleanSession;
     }
 
-    public void setCleanSession(boolean cleanSession) {
-        this.cleanSession = cleanSession;
+    @Override
+    public String toString() {
+        return "ConnectionDescriptor{" +
+                "clientId='" + clientId + '\'' +
+                ", client=" + client +
+                ", cleanSession=" + cleanSession +
+                '}';
     }
 
     @Override
-    public String toString() {
-        return "ConnectionDescriptor{" + "m_clientId=" + clientId + ", m_cleanSession=" + cleanSession + '}';
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        ConnectionDescriptor that = (ConnectionDescriptor) o;
+
+        if (clientId != null ? !clientId.equals(that.clientId) : that.clientId != null) return false;
+        return !(client != null ? !client.equals(that.client) : that.client != null);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = clientId != null ? clientId.hashCode() : 0;
+        result = 31 * result + (client != null ? client.hashCode() : 0);
+        return result;
     }
 }

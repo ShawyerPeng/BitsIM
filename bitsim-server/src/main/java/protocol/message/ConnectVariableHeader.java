@@ -81,4 +81,19 @@ public class ConnectVariableHeader {
         return keepAlive;
     }
 
+    @Override
+    public String toString() {
+        return "ConnectVariableHeader{" +
+                "protocolName='" + protocolName + '\'' +
+                ", protocolVersionNumber=" + protocolVersionNumber +
+                ", hasUsername=" + hasUsername +
+                ", hasPassword=" + hasPassword +
+                ", willRetain=" + willRetain +
+                ", willQoS=" + willQoS +
+                ", hasWill=" + hasWill +
+                ", cleanSession=" + cleanSession +
+                ", reservedIsZero=" + reservedIsZero +
+                ", keepAlive=" + keepAlive +
+                '}';
+    }
 }

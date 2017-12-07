@@ -55,5 +55,4 @@ public class ConnAckMessage extends Message {
     public ConnAckVariableHeader getVariableHeader() {
         return (ConnAckVariableHeader) super.getVariableHeader();
     }
-
 }

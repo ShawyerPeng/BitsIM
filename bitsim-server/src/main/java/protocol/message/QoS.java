@@ -7,7 +7,7 @@ public enum QoS {
 	AT_MOST_ONCE  (0),// QoS=0，最多一次
 	AT_LEAST_ONCE (1),// QoS=1，最少一次
 	EXACTLY_ONCE  (2),// QoS=2，只有一次
-	RESERVE       (3);// QoS=3，保留
+	RESERVED      (3);// QoS=3，保留
 
     public final int val;
 

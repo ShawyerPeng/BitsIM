@@ -21,4 +21,11 @@ public class PacketIdVariableHeader {
 	public void setPacketId(int packetId) {
 		this.packetId = packetId;
 	}
+
+	@Override
+	public String toString() {
+		return "PacketIdVariableHeader{" +
+				"packetId=" + packetId +
+				'}';
+	}
 }

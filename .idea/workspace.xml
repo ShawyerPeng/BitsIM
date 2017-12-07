@@ -1,7 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ac77ff0-a33a-4ecb-ae64-da934510f4b7" name="Default" comment="" />
+    <list default="true" id="5ac77ff0-a33a-4ecb-ae64-da934510f4b7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_40.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_proxytoys_proxytoys_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_58.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_58.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_morphia_morphia_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_0_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/controller/OfflineMessageController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/controller/UserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/controller/UserGroupController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/dao/FriendshipDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/dao/GroupDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/dao/UserDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/dao/UserGroupDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/mapper/FriendshipMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/mapper/FriendshipMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/mapper/GroupMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/mapper/GroupMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/mapper/MessageMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/mapper/MessageMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/mapper/OfflineMessageMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/mapper/OfflineMessageMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/mapper/UserGroupMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/mapper/UserGroupMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/mapper/UserMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/mapper/UserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/model/Friendship.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/model/FriendshipExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/model/Group.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/model/GroupExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/model/JsonResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/model/Message.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/model/MessageExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/model/OfflineMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/model/OfflineMessageExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/model/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/model/UserExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/model/UserGroup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/model/UserGroupExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/Publisher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/SSLHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/SSLSocketFactoryGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/Subscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/old/MessageCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/old/PublishMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/old/PushCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/old/SubscribeMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/store/ClientSession.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/store/ISessionStore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/store/TopicType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/store/impl/SessionStoreImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/processor/ConnectProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/processor/DisconnectProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/processor/MessageProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/processor/PublishProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/processor/SubscribeProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/processor/UnsubscribeProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/service/FriendshipService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/service/GroupService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/service/MessageService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/service/OfflineMessageService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/service/UserGroupService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/service/impl/FriendshipServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/service/impl/GroupServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/service/impl/MessageServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/service/impl/OfflineMessageServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/service/impl/UserGroupServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/service/impl/UserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/util/IPUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitsim-server/src/test/java/OfflineMessageTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/controller/SpringContextUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitsim-server/src/main/moquette_store.mapdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitsim-server/src/main/moquette_store.mapdb.p" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bitsim-server/src/main/moquette_store.mapdb.t" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/controller/MessageController.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/TcpServer$1.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/TcpServer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/TcpServer.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/TcpServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/MQTTDecoder$1.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/MQTTDecoder$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/MQTTDecoder$DecoderState.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/MQTTDecoder$DecoderState.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/MQTTDecoder$Result.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/MQTTDecoder$Result.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/MQTTDecoder.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/MQTTDecoder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/MQTTEncoder$1.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/MQTTEncoder$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/MQTTEncoder.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/MQTTEncoder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/MQTTMesageFactory$1.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/MQTTMesageFactory$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/MQTTMesageFactory.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/MQTTMesageFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/MQTTProcess$1.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/MQTTProcess$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/MQTTProcess.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/MQTTProcess.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/message/ConnectPayload.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/message/ConnectPayload.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/message/ConnectVariableHeader.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/message/ConnectVariableHeader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/message/FixedHeader.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/message/FixedHeader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/message/PacketIdVariableHeader.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/message/PacketIdVariableHeader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/message/QoS.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/message/QoS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/message/WillMessage.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/message/WillMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/process/ConnectionDescriptor.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/process/ConnectionDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/process/NettyAttrManager.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/process/NettyAttrManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/process/ProtocolProcess.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/process/ProtocolProcess.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/process/event/PubRelEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/process/event/PubRelEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/process/event/PublishEvent.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/process/event/PublishEvent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/process/event/job/RePubRelJob.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/process/event/job/RePubRelJob.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/process/event/job/RePublishJob.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/process/event/job/RePublishJob.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/process/interfaces/impl/MapDBPersistentStore.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/process/interfaces/impl/MapDBPersistentStore.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/process/subscribe/Subscription.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/protocol/process/subscribe/Subscription.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/util/BufferPool.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/util/BufferPool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/util/MQTTTool.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/util/MQTTTool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/util/QuartzManager.class" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/util/QuartzManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/bitsim_server_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/bitsim_server_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/330df4f8-4749-4821-be71-6ca288546c30.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/330df4f8-4749-4821-be71-6ca288546c30.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/bitsim-server.iml" afterPath="$PROJECT_DIR$/bitsim-server/bitsim-server.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/bitsim.sql" afterPath="$PROJECT_DIR$/bitsim-server/bitsim.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/pom.xml" afterPath="$PROJECT_DIR$/bitsim-server/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/api/PublishMessage.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/api/PublishMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/api/SubscribeMessage.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/api/SubscribeMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/controller/Main.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/controller/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/controller/MessageController.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/controller/MessageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/controller/MqttSendingMessageHandler.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/controller/MqttSendingMessageHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/MqttDecoder.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/MqttDecoder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/MqttMesageFactory.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/MqttMesageFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/MqttProcess.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/MqttProcess.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/ConnAckMessage.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/ConnAckMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/ConnectMessage.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/ConnectMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/ConnectPayload.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/ConnectPayload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/ConnectVariableHeader.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/ConnectVariableHeader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/FixedHeader.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/FixedHeader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/PacketIdVariableHeader.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/PacketIdVariableHeader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/QoS.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/QoS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/WillMessage.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/WillMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/ConnectionDescriptor.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/ConnectionDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/NettyAttrManager.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/NettyAttrManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/ProtocolProcess.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/ProtocolProcess.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/event/PubRelEvent.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/event/PubRelEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/event/PublishEvent.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/event/PublishEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/event/job/RePublishJob.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/event/job/RePublishJob.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/interfaces/IAuthenticator.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/interfaces/IAuthenticator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/interfaces/ISessionStore.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/interfaces/ISessionStore.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/subscribe/Subscription.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/subscribe/Subscription.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/java/util/QuartzManager.java" afterPath="$PROJECT_DIR$/bitsim-server/src/main/java/util/QuartzManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/resources/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/bitsim-server/src/main/resources/spring/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/main/resources/spring/spring-mqtt.xml" afterPath="$PROJECT_DIR$/bitsim-server/src/main/resources/spring/spring-mqtt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitsim-server/src/test/java/MQTTClientTest.java" afterPath="$PROJECT_DIR$/bitsim-server/src/test/java/MQTTClientTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/mqtt.properties" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/mqtt.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/spring/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/spring/spring-mqtt.xml" afterPath="$PROJECT_DIR$/out/artifacts/bitsim_server_war_exploded/WEB-INF/classes/spring/spring-mqtt.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/bitsim-client/target/" />
     <ignored path="$PROJECT_DIR$/bitsim-server/target/" />
@@ -24,31 +174,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MapDBPersistentStore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/interfaces/impl/MapDBPersistentStore.java">
+      <file leaf-file-name="SSLHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/SSLHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="199" column="39" lean-forward="false" selection-start-line="199" selection-start-column="39" selection-end-line="199" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MqttProcess.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/MqttProcess.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProtocolProcess.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/ProtocolProcess.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="187" column="76" lean-forward="false" selection-start-line="187" selection-start-column="76" selection-end-line="187" selection-end-column="76" />
+            <state relative-caret-position="460">
+              <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,47 +186,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NettyAttrManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/NettyAttrManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="76" lean-forward="false" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConnectVariableHeader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/ConnectVariableHeader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-257">
-              <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="34" />
-              <folding>
-                <element signature="e#2255#2256#0" expanded="true" />
-                <element signature="e#2292#2293#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PublishMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/api/PublishMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubscribeMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/api/SubscribeMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="42">
+                <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -112,36 +210,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ID</find>
-      <find>cID</find>
-      <find>clID</find>
-      <find>cliID</find>
-      <find>clienID</find>
-      <find>client_ID</find>
-      <find>clientID</find>
-      <find>searchQosPublishMessage</find>
-      <find>ertwersdfas</find>
-      <find>id-2</find>
-      <find>连接断开，可以做重连</find>
-      <find>username</find>
-      <find>userame</find>
-      <find>userName</find>
-      <find>p</find>
-      <find>pb</find>
-      <find>----------~~~~~~~~</find>
-      <find>从会话列表</find>
-      <find>收到心跳包</find>
-      <find>服务器已启动</find>
-      <find>正在进行重连</find>
-      <find>已断开连接</find>
-      <find>意外错误</find>
-      <find>publish.client</find>
-      <find>重发客户端</find>
-      <find>quartz.properties</find>
-      <find>quartz</find>
-      <find>发送pulicMessage给指定客户端</find>
-      <find>publish.client-id</find>
-      <find>IdleStateHandler</find>
+      <find>sessionForClient</find>
+      <find>ISessionStore</find>
+      <find>reUnKnowPubRelMessage</find>
+      <find>------------------------------------------------- 5-PUBREC</find>
+      <find>NON_CLUSTERED</find>
+      <find>sendPubRel</find>
+      <find>sendPubComp</find>
+      <find>processPubRel</find>
+      <find>messagesStore</find>
+      <find>HeartbeatHandler</find>
+      <find>sendPubAck</find>
+      <find>connAck</find>
+      <find>processPubli</find>
+      <find>3</find>
+      <find>回写PubRec消息给发来publish的客户端</find>
+      <find>sendPubRec</find>
+      <find>PUBREC</find>
+      <find>重发PublishKey</find>
+      <find>republishMessage</find>
+      <find>RePublishJob</find>
+      <find>mqtt</find>
+      <find>smqtt</find>
+      <find>spmqtt</find>
+      <find>sprimqtt</find>
+      <find>sprinmqtt</find>
+      <find>springmqtt</find>
+      <find>spring.mqtt</find>
+      <find>spring</find>
+      <find>systemProperties</find>
+      <find>DefaultQuartzScheduler</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -150,6 +248,11 @@
       <replace>PacketId</replace>
       <replace>packetId</replace>
       <replace>clientId</replace>
+      <replace>client</replace>
+      <replace>processUnsubscribe</replace>
+      <replace>logger</replace>
+      <replace>clientIDs</replace>
+      <replace>messageStore</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -163,57 +266,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/interfaces/impl/DBConnection.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/util/MqttTool.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/interfaces/impl/IdentityAuthenticator.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/MQTTDecoder.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/MQTTEncoder.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/bitsim.sql" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/controller/MessageController.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/resources/spring/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/util/BufferPool.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/controller/MQTTClientFactoryBean.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/pom.xml" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/controller/MQTTService.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/controller/IMsgHandle.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/controller/MQTTMessageHandler.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/message/MqttHeader.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/controller/MqttSendingMessageHandler.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/controller/SpringContextUtils.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/controller/QualityOfService.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/controller/MqttMessageHandler.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/controller/MqttService.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/controller/WebRootPathListener.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/controller/Main.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/controller/MqttClientFactoryBean.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/TcpServer.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/test/java/MQTTClientTest.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/api/SimpleCallbackHandler.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/event/PubRelEvent.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/event/PublishEvent.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/interfaces/impl/MapDBPersistentStore.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/interfaces/IMessageStore.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/test/java/StatMapDB.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/test/java/FileGetData.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/event/job/RePubRelJob.java" />
         <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/MqttDecoder.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/interfaces/ISessionStore.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/subscribe/Subscription.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/test/java/MapDbTest.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/api/MessageCallback.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/resources/mqtt.properties" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/resources/spring/spring-mqtt.xml" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/MqttProcess.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/test/java/MQTTClientTest.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/old/PushCallback.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/interfaces/IAuthenticator.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/test/java/ShareDataTest2.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/test/java/ShareDataTest1.java" />
         <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/event/job/RePublishJob.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/util/QuartzManager.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/PacketIdManager.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/api/PushCallback.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/FixedHeader.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/MqttProcess.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/service/GroupService.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/service/impl/GroupServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/mapper/OfflineMessageMapper.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/mapper/OfflineMessageMapper.xml" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/service/impl/OfflineMessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/service/OfflineMessageService.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/service/impl/UserGroupServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/resources/spring/spring-mqtt.xml" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/test/java/OfflineMessageTest.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/resources/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/controller/MqttSendingMessageHandler.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/controller/Main.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/controller/UserGroupController.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/controller/OfflineMessageController.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/model/OfflineMessage.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/util/IPUtil.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/mapper/MessageMapper.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/mapper/MessageMapper.xml" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/controller/MessageController.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/service/MessageService.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/service/impl/MessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/mapper/FriendshipMapper.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/mapper/FriendshipMapper.xml" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/service/FriendshipService.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/service/impl/FriendshipServiceImpl.java" />
         <option value="$PROJECT_DIR$/bitsim-server/src/main/java/api/PublishMessage.java" />
         <option value="$PROJECT_DIR$/bitsim-server/src/main/java/api/SubscribeMessage.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/ConnectVariableHeader.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/NettyAttrManager.java" />
-        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/handler/HeartbeatHandler.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/util/QuartzManager.java" />
         <option value="$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/ProtocolProcess.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/SslUtil.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/MqttMain.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/SslHandler.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/Client.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/SSLSocketFactory.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/pom.xml" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/Publisher.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/SSLUtil.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/SSLSocketFactoryGenerator.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/Subscriber.java" />
+        <option value="$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/SSLHandler.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -362,7 +465,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -378,9 +483,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -412,24 +516,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BitsIM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitsim-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -552,6 +638,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BitsIM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitsim-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -777,15 +893,89 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="process" />
+              <option name="myItemId" value="message" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BitsIM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitsim-server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="event" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="job" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="netty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BitsIM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitsim-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BitsIM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bitsim-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -843,6 +1033,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -853,19 +1044,22 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/新建文件夹/PahoDemo-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/restaurants-master" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="netty.ssl" />
       <recent name="controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="converter" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Demo\BitsIM\bitsim-server\src\main\java\old" />
+      <recent name="D:\Demo\BitsIM\bitsim-server\src\main\java" />
+      <recent name="D:\Demo\BitsIM\bitsim-server\src\main\java\model" />
       <recent name="D:\Demo\BitsIM\bitsim-client\web" />
       <recent name="D:\Demo\BitsIM\bitsim-server\src\main\resources" />
-      <recent name="D:\Demo\BitsIM\bitsim-server\src\main\java\protocol" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -887,26 +1081,6 @@
       <option name="VM_PARAMETERS" value="-Duser.dir=D:\Demo\BitsIM\bitsim-server\src\main" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="bitsim-server" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="controller.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -959,6 +1133,21 @@
     <configuration default="false" name="MapDbTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="MapDbTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="bitsim-server" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MQTTClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="MQTTClientTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1331,6 +1520,39 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4949" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -1355,18 +1577,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8.5.16" />
       <item index="1" class="java.lang.String" itemvalue="Application.StartServer" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PublishMessage" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SubscribeMessage" />
-      <item index="5" class="java.lang.String" itemvalue="Application.MapDbTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PublishMessage" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SubscribeMessage" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MapDbTest" />
+      <item index="5" class="java.lang.String" itemvalue="Application.MQTTClientTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.PublishMessage" />
         <item index="1" class="java.lang.String" itemvalue="Application.SubscribeMessage" />
         <item index="2" class="java.lang.String" itemvalue="Application.StartServer" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MapDbTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MQTTClientTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MapDbTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1384,44 +1606,53 @@
       <workItem from="1506728631073" duration="125000" />
       <workItem from="1510117793664" duration="32921000" />
       <workItem from="1510200376907" duration="22294000" />
-      <workItem from="1510288441275" duration="4646000" />
+      <workItem from="1510288441275" duration="30388000" />
+      <workItem from="1510465672435" duration="1564000" />
+      <workItem from="1510553591272" duration="20656000" />
+      <workItem from="1510629354303" duration="588000" />
+      <workItem from="1510669096852" duration="5028000" />
+      <workItem from="1510718739585" duration="8543000" />
+      <workItem from="1510737257970" duration="1413000" />
+      <workItem from="1510806898801" duration="5785000" />
+      <workItem from="1512653849194" duration="324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61451000" />
+    <option name="totallyTimeSpent" value="131094000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.50214595" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34583822" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34935522" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22854078" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23980686" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.49785408" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976552" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1461,7 +1692,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1469,271 +1702,148 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/controller/MqttService.java">
+    <entry file="file://$PROJECT_DIR$/bitsim-server/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="64" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        <state relative-caret-position="147">
+          <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/controller/MqttMessageHandler.java">
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/resources/spring/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="75" column="43" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+        <state relative-caret-position="294">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/controller/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="17" column="65" lean-forward="false" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/controller/MqttSendingMessageHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/controller/QualityOfService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="50" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/controller/SpringContextUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/StartServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/api/SimpleCallbackHandler.java" />
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/controller/MqttClientFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1661">
-          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1436#1437#0" expanded="false" />
-            <element signature="e#1493#1494#0" expanded="false" />
-            <element signature="e#1576#1577#0" expanded="false" />
-            <element signature="e#1623#1624#0" expanded="false" />
-            <element signature="e#3554#3555#0" expanded="false" />
-            <element signature="e#3594#3595#0" expanded="false" />
-            <element signature="e#3644#3645#0" expanded="false" />
-            <element signature="e#3671#3672#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/test/java/MQTTClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="e#1412#1413#0" expanded="false" />
-            <element signature="e#1500#1501#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/event/PubRelEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/event/PublishEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="79" column="18" lean-forward="false" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/subscribe/SubscribeStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/test/java/FileGetData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/test/java/StatMapDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="41" column="51" lean-forward="true" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/FixedHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="96" column="30" lean-forward="false" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/interfaces/ISessionStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/interfaces/IMessageStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="93" column="26" lean-forward="false" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/MqttDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="373" column="38" lean-forward="true" selection-start-line="373" selection-start-column="38" selection-end-line="373" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/subscribe/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/subscribe/Subscription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/test/java/MapDbTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.2.0/org.eclipse.paho.client.mqttv3-1.2.0.jar!/org/eclipse/paho/client/mqttv3/MqttClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="259" column="16" lean-forward="false" selection-start-line="259" selection-start-column="16" selection-end-line="259" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/api/MessageCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/resources/spring/spring-mqtt.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181">
-          <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-          <folding>
-            <element signature="e#1089#1107#0" expanded="false" />
-            <element signature="e#1150#1168#0" expanded="false" />
-            <element signature="e#1213#1233#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/TcpServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/MessageType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/message/MqttHeader.java" />
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/serialization/pojo/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/resources/db.properties">
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/test/java/OfflineMessageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/resources/druid.properties">
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/resources/spring/spring-mqtt.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-290">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="63">
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding>
+            <element signature="e#1085#1103#0" expanded="false" />
+            <element signature="e#1146#1164#0" expanded="false" />
+            <element signature="e#1209#1229#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/resources/mqtt.properties">
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/resources/spring/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="274">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/util/QuartzManager.java">
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/controller/MqttClientFactoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        <state relative-caret-position="147">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/controller/MqttMessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/controller/MqttSendingMessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="13" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/controller/SpringContextUtils.java" />
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/controller/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="34" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/controller/UserGroupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/controller/OfflineMessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/model/OfflineMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/service/impl/OfflineMessageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/mapper/OfflineMessageMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="213" column="4" lean-forward="false" selection-start-line="213" selection-start-column="4" selection-end-line="227" selection-end-column="13" />
+          <folding>
+            <marker date="1510671762412" expanded="true" signature="3595:3736" ph="select from offline_message" />
+            <marker date="1510671762412" expanded="true" signature="3823:3918" ph="delete from " />
+            <marker date="1510671762412" expanded="true" signature="4012:4039" ph="delete from " />
+            <marker date="1510671762412" expanded="true" signature="4210:4485" ph="insert into offline_message... " />
+            <marker date="1510671762412" expanded="true" signature="5657:5693" ph="select count... offline_message" />
+            <marker date="1510671762412" expanded="true" signature="6665:6979" ph="update offli... " />
+            <marker date="1510671762412" expanded="true" signature="7181:7683" ph="update offli... " />
+            <marker date="1510671762412" expanded="true" signature="7773:8055" ph="update offli... " />
+            <marker date="1510671762412" expanded="true" signature="8134:8214" ph="select from offline_message" />
+            <marker date="1510671762412" expanded="true" signature="8315:8409" ph="select from offline_message" />
+            <marker date="1510671762412" expanded="true" signature="8315:8533" ph="select from offline_message" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/mapper/OfflineMessageMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="34" column="106" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/util/IPUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/service/MessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1744,140 +1854,284 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/event/job/RePublishJob.java">
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/ConnAckMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        <state relative-caret-position="16">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/mapper/MessageMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="252" column="4" lean-forward="false" selection-start-line="252" selection-start-column="4" selection-end-line="257" selection-end-column="13" />
+          <folding>
+            <marker date="1510722161824" expanded="true" signature="3601:3719" ph="select from message" />
+            <marker date="1510722161824" expanded="true" signature="3806:3878" ph="delete from " />
+            <marker date="1510722161824" expanded="true" signature="3965:3984" ph="delete from " />
+            <marker date="1510722161824" expanded="true" signature="4148:4438" ph="insert into message... " />
+            <marker date="1510722161824" expanded="true" signature="5679:5707" ph="select count... message" />
+            <marker date="1510722161824" expanded="true" signature="6736:7065" ph="update messa... " />
+            <marker date="1510722161824" expanded="true" signature="7260:7812" ph="update messa... " />
+            <marker date="1510722161824" expanded="true" signature="7895:8185" ph="update messa... " />
+            <marker date="1510722161824" expanded="true" signature="8263:8335" ph="select from message" />
+            <marker date="1510722161824" expanded="true" signature="8436:8646" ph="select from message" />
+            <marker date="1510722161824" expanded="true" signature="8763:8835" ph="select from message" />
+            <marker date="1510722161824" expanded="true" signature="8763:8923" ph="select from message" />
+            <marker date="1510722161824" expanded="true" signature="9026:9149" ph="select from message" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/mapper/MessageMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="39" column="64" lean-forward="false" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/controller/MessageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="2938" column="25" lean-forward="false" selection-start-line="2938" selection-start-column="25" selection-end-line="2938" selection-end-column="25" />
+        <state relative-caret-position="142">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1149#1150#0" expanded="false" />
+            <element signature="e#1209#1210#0" expanded="false" />
+            <element signature="e#1325#1326#0" expanded="false" />
+            <element signature="e#1385#1386#0" expanded="false" />
+            <element signature="e#1485#1486#0" expanded="false" />
+            <element signature="e#1541#1542#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/mapper/FriendshipMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="264" column="50" lean-forward="true" selection-start-line="264" selection-start-column="50" selection-end-line="264" selection-end-column="50" />
+          <folding>
+            <marker date="1510724035766" expanded="true" signature="3804:3910" ph="select from friendship" />
+            <marker date="1510724035766" expanded="true" signature="3997:4057" ph="delete from " />
+            <marker date="1510724035766" expanded="true" signature="4147:4169" ph="delete from " />
+            <marker date="1510724035766" expanded="true" signature="4336:4724" ph="insert into friendship... " />
+            <marker date="1510724035766" expanded="true" signature="6311:6342" ph="select count... friendship" />
+            <marker date="1510724035766" expanded="true" signature="7620:8075" ph="update frien... " />
+            <marker date="1510724035766" expanded="true" signature="8273:9053" ph="update frien... " />
+            <marker date="1510724035766" expanded="true" signature="9139:9541" ph="update frien... " />
+            <marker date="1510724035766" expanded="true" signature="9658:9784" ph="select from friendship" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/mapper/FriendshipMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/api/PushCallback.java">
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/service/impl/FriendshipServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="34" column="15" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="483">
+          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/event/job/RePubRelJob.java">
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/service/FriendshipService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="19" column="68" lean-forward="false" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
-          <folding />
+        <state relative-caret-position="231">
+          <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/interfaces/impl/MapDBPersistentStore.java">
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/interfaces/impl/IdentityAuthenticator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="199" column="39" lean-forward="false" selection-start-line="199" selection-start-column="39" selection-end-line="199" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="268">
+          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/PacketIdManager.java">
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/dao/GroupDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        <state relative-caret-position="252">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/dao/UserGroupDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/api/PublishMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/api/SubscribeMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state relative-caret-position="264">
+          <caret line="54" column="48" lean-forward="true" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+          <folding>
+            <element signature="e#1516#1517#0" expanded="false" />
+            <element signature="e#1604#1605#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/StartServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/api/PublishMessage.java">
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/service/impl/MessageServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/ConnectVariableHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257">
-          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="e#2255#2256#0" expanded="true" />
-            <element signature="e#2292#2293#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="205">
+          <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/MqttProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar!/io/netty/handler/timeout/IdleStateHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="35" column="104" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="104" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/handler/HeartbeatHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="21" column="92" lean-forward="false" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
+        <state relative-caret-position="1134">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/ConnAckMessage.java">
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/event/job/RePublishJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="357">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/util/QuartzManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="71" column="43" lean-forward="false" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/PublishMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/util/StringTool.java">
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/MqttMain.java" />
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/PublishVariableHeader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="89" column="26" lean-forward="false" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
+        <state relative-caret-position="147">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/NettyAttrManager.java">
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="76" lean-forward="false" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
+        <state relative-caret-position="1911">
+          <caret line="91" column="1" lean-forward="true" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/message/FixedHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/protocol/process/ProtocolProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="187" column="76" lean-forward="false" selection-start-line="187" selection-start-column="76" selection-end-line="187" selection-end-column="76" />
+        <state relative-caret-position="420">
+          <caret line="142" column="30" lean-forward="false" selection-start-line="142" selection-start-column="30" selection-end-line="142" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="424" column="21" lean-forward="false" selection-start-line="424" selection-start-column="21" selection-end-line="424" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/SSLSocketFactoryGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="87" column="7" lean-forward="true" selection-start-line="87" selection-start-column="7" selection-end-line="87" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/SSLUtil.java" />
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/Publisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/Subscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="50" column="1" lean-forward="false" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitsim-server/src/main/java/netty/ssl/SSLHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="42">
+            <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
